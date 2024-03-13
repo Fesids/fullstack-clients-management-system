@@ -1,5 +1,13 @@
 <!-- Instruções -->
 
+
+### ferramentas 
+
+* Node: 18.18.0
+* postgres: 14
+ 
+  
+
 ### clone o repositório
 
 
