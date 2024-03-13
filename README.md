@@ -4,7 +4,7 @@
 
 ### Instalação backend
 
-This is an example of how to list things you need to use the software and how to install them.
+No diretório base do projeto siga os seguintes comandos
 * npm
   ```sh
   npm install npm@latest -g
