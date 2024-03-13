@@ -1,29 +1,39 @@
 <!-- Instruções -->
 
+### clone o repositório
 
+
+   ```sh
+   git clone https://github.com/fesids/fullstack-clients-management-system.git
+   ```
 
 ### Instalação backend
 
 No diretório base do projeto siga os seguintes comandos
-* npm
+* acesse o diretório
   ```sh
-  npm install npm@latest -g
+  cd backend
   ```
+* instale as bibliotecas
+  ```sh
+  npm install
+  ```
+* rode o projeto ( não esquece de alterar as credênciais de acesso ao banco de dados )
+  ```sh
+  npm run start:dev
+  ```
+### Instalação frontend
 
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+No diretório base do projeto siga os seguintes comandos
+* acesse o diretório
+  ```sh
+  cd frontend
+  ```
+* instale as bibliotecas
+  ```sh
+  npm install
+  ```
+* rode o projeto 
+  ```sh
+  npm run dev
+  ```
